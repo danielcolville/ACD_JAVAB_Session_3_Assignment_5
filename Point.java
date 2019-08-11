@@ -26,7 +26,7 @@ public class Point {
 	Point() {
 		
 	}
-	static class Line extends Point {
+	static class Line {
 		private Point point1;
 		private Point point2;
 		public Point getPoint1() {
@@ -66,3 +66,4 @@ public class Point {
 	}
 
 }
+
